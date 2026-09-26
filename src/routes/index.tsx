@@ -20,6 +20,9 @@ function Index() {
   useEffect(() => {
     // The supplied reference uses hash navigation. Open its intelligence
     // terminal by default, while preserving direct links to its other views.
+    const savedTheme = window.localStorage.getItem("vve-theme");
+    document.documentElement.setAttribute("data-theme", savedTheme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+    document.documentElement.setAttribute("data-role", window.localStorage.getItem("vve-role") || "investor");
     if (!window.location.hash) window.history.replaceState(null, "", "#dashboard");
     const existing = document.getElementById("vventra-interactions");
     if (!existing) {
