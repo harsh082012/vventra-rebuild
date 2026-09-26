@@ -1,16 +1,5 @@
 # Vventra Rebuild
 
-Yes, start building the vvEntra recreation from the complete specification. I provide you the website link I want exact that website https://vventrabyaj.netlify.app/#dashboard
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/5624495b-7656-4d3c-ad43-c30301e633fa).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
